@@ -1,0 +1,1 @@
+docker run -p 8180:8080 --name=keycloak -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=nimda quay.io/keycloak/keycloak:23.0.0 start-dev -Djboss.http.port=8180

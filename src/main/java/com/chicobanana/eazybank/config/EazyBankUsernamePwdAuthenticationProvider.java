@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-@Component
+//@Component
 public class EazyBankUsernamePwdAuthenticationProvider implements AuthenticationProvider {
 
     @Autowired
